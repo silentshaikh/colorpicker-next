@@ -1,4 +1,4 @@
-import { useCustomHook } from "@/Context/Context"
+// import { useCustomHook } from "@/Context/Context"
 import { Color } from "@/utils/type";
 
 function ColorCode({color}:Color) {
