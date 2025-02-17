@@ -4,14 +4,14 @@ import Button from '../Button/Button';
 import ColorCode from '../ColorCode/ColorCode';
 import { Poppins } from '@next/font/google';
 import { useCustomHook } from '@/Context/Context';
-import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
+// import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
 const poppin = Poppins({
   weight: ['400', '700'], 
   subsets: ['latin'], 
   display: 'swap', 
 });
 function ColorComp() {
-  const {colorList,copyTheColor,popOver,setPopOver} = useCustomHook();
+  const {colorList,copyTheColor} = useCustomHook();
   return (
     <>
     

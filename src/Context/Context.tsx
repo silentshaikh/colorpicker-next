@@ -37,7 +37,7 @@ export default Context;
 
 //custom hook
 const useCustomHook = () => {
-  let colorContext = useContext(ColorContext);
+  const colorContext = useContext(ColorContext);
   if(!colorContext){
     throw new Error("useCustomHook must be used within a ColorContext.Provider");
   };

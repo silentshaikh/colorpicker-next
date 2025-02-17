@@ -1,7 +1,7 @@
 import ColorComp from "@/Components/ColorComp/ColorComp";
-import Image from "next/image";
+// import Image from "next/image";
 import { Sofadi_One } from '@next/font/google';
-import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
+// import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/react";
 const SofadiOne = Sofadi_One({
   weight: '400', 
   subsets: ['latin'], 
